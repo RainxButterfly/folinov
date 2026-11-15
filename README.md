@@ -4,15 +4,20 @@
 
 ## 最新版本
 
-- 版本：0.1.0
-- 安装包：[releases/FolinovConsole-Setup-0.1.0.exe](releases/FolinovConsole-Setup-0.1.0.exe)
+- 版本：0.1.1
+- 安装包：[releases/FolinovConsole-Setup-0.1.1.exe](releases/FolinovConsole-Setup-0.1.1.exe)
+- 更新说明：降低数据库连接占用，修复多人同时在线时第三个人无法连接的问题；登录页新增版本检查与数据库状态提示。
 
 ## 下载地址
 
-- jsDelivr（推荐，国内可用）：
-  `https://cdn.jsdelivr.net/gh/RainxButterfly/folinov@v0.1.0/releases/FolinovConsole-Setup-0.1.0.exe`
-- GitHub Releases（镜像）：
-  `https://github.com/RainxButterfly/folinov/releases/download/v0.1.0/FolinovConsole-Setup-0.1.0.exe`
+- 主地址（GitHub 加速）：
+  `https://ghproxy.net/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.1.1/releases/FolinovConsole-Setup-0.1.1.exe`
+- 镜像地址：
+  `https://gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.1.1/releases/FolinovConsole-Setup-0.1.1.exe`
+
+## 历史版本
+
+- 0.1.0：[releases/FolinovConsole-Setup-0.1.0.exe](releases/FolinovConsole-Setup-0.1.0.exe)
 
 ## 发布新版本
 
