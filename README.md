@@ -1,19 +1,17 @@
-﻿# Folinov Console 发布仓库
+# Folinov Console 发布仓库
 
 工作室内部办公系统的安装包与自动更新分发仓库（仅存放构建产物）。
 
 ## 最新版本
 
-- 版本：0.1.1
-- 安装包：[releases/FolinovConsole-Setup-0.1.1.exe](releases/FolinovConsole-Setup-0.1.1.exe)
-- 更新说明：降低数据库连接占用，修复多人同时在线时第三个人无法连接的问题；登录页新增版本检查与数据库状态提示。
+- 版本：0.3.1
+- Windows：[安装包](releases/FolinovConsole-Setup-0.3.1.exe)
+- Android：[安装包](releases/android/FolinovMobile-0.3.1.apk)
+- [更新说明](releases/notes-0.3.1.md)
 
 ## 下载地址
 
-- 主地址（GitHub 加速）：
-  `https://ghproxy.net/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.1.1/releases/FolinovConsole-Setup-0.1.1.exe`
-- 镜像地址：
-  `https://gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.1.1/releases/FolinovConsole-Setup-0.1.1.exe`
+可使用上述安装包链接，或通过应用内更新下载已验证的镜像。
 
 ## 历史版本
 

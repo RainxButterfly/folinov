@@ -1,0 +1,57 @@
+{
+  "version": "0.3.1",
+  "builtAt": "2026-11-16T14:19:16.308Z",
+  "artifacts": [
+    {
+      "platform": "windows",
+      "path": "release/FolinovConsole-Setup-0.3.1.exe",
+      "version": "0.3.1",
+      "size": 2505678,
+      "sha256": "c3db166efbedb7e7fbe38388109928f02ebe434678949b9f71ee6500e1e87bc8",
+      "tag": "v0.3.1",
+      "repositoryPath": "releases/FolinovConsole-Setup-0.3.1.exe",
+      "urls": [
+        "https://hk.gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.3.1/releases/FolinovConsole-Setup-0.3.1.exe",
+        "https://ghproxy.net/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.3.1/releases/FolinovConsole-Setup-0.3.1.exe",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.3.1/releases/FolinovConsole-Setup-0.3.1.exe",
+        "https://ghfast.top/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.3.1/releases/FolinovConsole-Setup-0.3.1.exe",
+        "https://raw.githubusercontent.com/RainxButterfly/folinov/v0.3.1/releases/FolinovConsole-Setup-0.3.1.exe"
+      ]
+    },
+    {
+      "platform": "android",
+      "path": "release/FolinovMobile-0.3.1.apk",
+      "version": "0.3.1",
+      "size": 1608939,
+      "sha256": "c806b349e367f9187fed02a4eda1f4d1657ed3c1ea22ea03925eaac62d360ebb",
+      "tag": "android-v0.3.1",
+      "repositoryPath": "releases/android/FolinovMobile-0.3.1.apk",
+      "urls": [
+        "https://hk.gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.3.1/releases/android/FolinovMobile-0.3.1.apk",
+        "https://ghproxy.net/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.3.1/releases/android/FolinovMobile-0.3.1.apk",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.3.1/releases/android/FolinovMobile-0.3.1.apk",
+        "https://ghfast.top/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.3.1/releases/android/FolinovMobile-0.3.1.apk",
+        "https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.3.1/releases/android/FolinovMobile-0.3.1.apk"
+      ]
+    }
+  ],
+  "notes": [
+    "头像新增丰富调色盘、HEX 颜色码和 RGB 输入，颜色跨设备保存",
+    "修复安装完成页中文乱码，支持选择是否创建桌面快捷方式",
+    "移动端完整工作台与系统文件导入导出",
+    "讨论主题、指定回复、解决与重新打开",
+    "文档选区批注、表格单元格批注",
+    "需求说明模板、单元格合并拆分、智能表格搜索排序",
+    "容量限制与数据库占用显示"
+  ],
+  "validation": {
+    "typescript": true,
+    "rustTests": 8,
+    "androidRpcAssertions": 33,
+    "avatarColorAssertions": 15,
+    "annotationAssertions": 7,
+    "androidReleaseLint": true,
+    "androidSignatureVerified": true,
+    "uiDeviceTesting": "pending"
+  }
+}
