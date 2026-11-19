@@ -1,0 +1,70 @@
+{
+  "version": "0.4.3",
+  "builtAt": "2026-11-19T15:53:59.062Z",
+  "androidVersionCode": 18,
+  "artifacts": [
+    {
+      "platform": "windows",
+      "path": "release/FolinovConsole-Setup-0.4.3.exe",
+      "version": "0.4.3",
+      "size": 3414974,
+      "sha256": "904405f60752ac9c7ae22a3366a24a1c0df1d2e5e0178e02138f275e27e77d21",
+      "tag": "v0.4.3",
+      "repositoryPath": "releases/FolinovConsole-Setup-0.4.3.exe",
+      "urls": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.3/releases/FolinovConsole-Setup-0.4.3.exe",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.3/releases/FolinovConsole-Setup-0.4.3.exe",
+        "https://ghfast.top/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.3/releases/FolinovConsole-Setup-0.4.3.exe",
+        "https://hk.gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.3/releases/FolinovConsole-Setup-0.4.3.exe",
+        "https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.3/releases/FolinovConsole-Setup-0.4.3.exe"
+      ]
+    },
+    {
+      "platform": "android",
+      "path": "release/FolinovMobile-0.4.3.apk",
+      "version": "0.4.3",
+      "size": 1794151,
+      "sha256": "7ece2562bb8745acda0e372f5c6cf1e8d2247397e76f30638b5c2ca434f65f44",
+      "tag": "android-v0.4.3",
+      "repositoryPath": "releases/android/FolinovMobile-0.4.3.apk",
+      "urls": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.3/releases/android/FolinovMobile-0.4.3.apk",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.3/releases/android/FolinovMobile-0.4.3.apk",
+        "https://ghfast.top/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.3/releases/android/FolinovMobile-0.4.3.apk",
+        "https://hk.gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.3/releases/android/FolinovMobile-0.4.3.apk",
+        "https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.3/releases/android/FolinovMobile-0.4.3.apk"
+      ]
+    }
+  ],
+  "notes": [
+    "修复 Windows 数据库重连后字符规则冲突（1267）导致文件夹删除、文档历史等操作失败",
+    "修复只打开文档也触发自动保存，继而错误留下未保存草稿的问题",
+    "草稿支持预览、继续编辑原文档和另存私有副本；确认已同步及保存成功后及时撤下提示",
+    "文档和表格改进为常驻目录与内容区，支持拖到侧栏任意层级及面包屑，投放目标清晰高亮",
+    "修复 Windows 回收站恢复路由，统一执行删除锁定与已删除内容访问检查，保留数据库内容",
+    "数据库错误保留错误编号，区分字符规则、字段读取和连接等待问题"
+  ],
+  "validation": {
+    "typescriptProductionBuild": true,
+    "rustUnitTests": 14,
+    "workspaceAssertions": 112,
+    "mysqlLiveCollationRegression": "reproduced 1267 under unicode_ci; document/history/folder queries passed under 0900_ai_ci",
+    "mysqlProtocolReconnectRegression": true,
+    "browserAutomation": "passed: actual mouse drag to sibling/parent/sidebar targets, folder context rename/delete counts, trash restore, locks, draft preview/resume/acknowledgement, no save on document opening, history conflicts, print, sheets, mind maps",
+    "androidHistoryOfflineAssertions": 25,
+    "androidReleaseLint": true,
+    "androidSignatureVerified": true,
+    "apkWorkspaceVerified": true,
+    "desktopCustomProtocol": true,
+    "liveAndroidRpc": {
+      "method": "Compiled Kotlin RPC over official SQLPub HTTPS SQL bridge",
+      "passed": true,
+      "assertions": 84,
+      "temporaryRecordsRemoved": true,
+      "version": "0.4.3"
+    },
+    "liveWindowsRpc": "not run: direct MySQL TCP is restricted in the build environment; actual SQL tested via official HTTPS and driver reconnection via local MySQL protocol fixture",
+    "windowsPhysicalPrinterTest": "pending",
+    "androidDeviceTesting": "pending"
+  }
+}
