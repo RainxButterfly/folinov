@@ -4,10 +4,10 @@
 
 ## 最新版本
 
-- 版本：0.4.3
-- Windows：[安装包](releases/FolinovConsole-Setup-0.4.3.exe)
-- Android：[安装包](releases/android/FolinovMobile-0.4.3.apk)
-- [更新说明](releases/notes-0.4.3.md)
+- 版本：0.4.4
+- Windows：[安装包](releases/FolinovConsole-Setup-0.4.4.exe)
+- Android：[安装包](releases/android/FolinovMobile-0.4.4.apk)
+- [更新说明](releases/notes-0.4.4.md)
 
 ## 下载地址
 
