@@ -1,0 +1,71 @@
+{
+  "version": "0.4.2",
+  "builtAt": "2026-11-19T15:17:06.260Z",
+  "androidVersionCode": 17,
+  "artifacts": [
+    {
+      "platform": "windows",
+      "path": "release/FolinovConsole-Setup-0.4.2.exe",
+      "version": "0.4.2",
+      "size": 3412706,
+      "sha256": "58efd4aff05dbcfe53b040820abe9af648c7cf44f3ebad69917679c74151584f",
+      "tag": "v0.4.2",
+      "repositoryPath": "releases/FolinovConsole-Setup-0.4.2.exe",
+      "urls": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.2/releases/FolinovConsole-Setup-0.4.2.exe",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.2/releases/FolinovConsole-Setup-0.4.2.exe",
+        "https://ghfast.top/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.2/releases/FolinovConsole-Setup-0.4.2.exe",
+        "https://hk.gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.2/releases/FolinovConsole-Setup-0.4.2.exe",
+        "https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.2/releases/FolinovConsole-Setup-0.4.2.exe"
+      ]
+    },
+    {
+      "platform": "android",
+      "path": "release/FolinovMobile-0.4.2.apk",
+      "version": "0.4.2",
+      "size": 1792207,
+      "sha256": "f3b335a1859c39058b2a09afdeb1769b28c530c3fa6dc850753b7aa185649d5c",
+      "tag": "android-v0.4.2",
+      "repositoryPath": "releases/android/FolinovMobile-0.4.2.apk",
+      "urls": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.2/releases/android/FolinovMobile-0.4.2.apk",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.2/releases/android/FolinovMobile-0.4.2.apk",
+        "https://ghfast.top/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.2/releases/android/FolinovMobile-0.4.2.apk",
+        "https://hk.gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.2/releases/android/FolinovMobile-0.4.2.apk",
+        "https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.2/releases/android/FolinovMobile-0.4.2.apk"
+      ]
+    }
+  ],
+  "notes": [
+    "修复电脑端进入文档、新建表格与读取版本历史时的闪退，增加单次操作异常保护",
+    "文档和表格改为桌面式文件夹与文件卡片，支持双击进入、返回上级和拖拽归档",
+    "文件夹右键支持重命名和删除，删除前显示包含数量，锁定内容阻止删除",
+    "新增文档/表格删除锁定与统一回收站，业务删除保留数据库内容及关联记录，可恢复",
+    "智能表格记录、字段及导图主题支持删除后恢复，历史快照归档保留",
+    "打印/PDF 与 HTML 导出只呈现工作室 Logo、名字和文档内容，Windows PDF 不带 localhost 和默认页眉页脚",
+    "降低桌面端连接占用，最多一个数据库连接，空闲及时释放"
+  ],
+  "validation": {
+    "typescriptProductionBuild": true,
+    "rustUnitTests": 12,
+    "rustMySqlProtocolCrashRegression": true,
+    "workspaceAssertions": 107,
+    "androidHistoryOfflineAssertions": 25,
+    "annotationAssertions": 7,
+    "avatarColorAssertions": 15,
+    "androidReleaseLint": true,
+    "androidSignatureVerified": true,
+    "apkWorkspaceVerified": true,
+    "desktopCustomProtocol": true,
+    "liveAndroidRpc": {
+      "passed": true,
+      "assertions": 86,
+      "method": "Compiled Kotlin RPC over official SQLPub HTTPS SQL bridge",
+      "temporaryRecordsRemoved": true,
+      "note": "Assertions passed and cleanup completed; reporting-only missing-directory error corrected after the successful checks."
+    },
+    "browserAutomation": "passed: desktop folders, drag/drop, context menu, deletion counts, trash/restore, locks, branded print/PDF, version history regression",
+    "windowsPhysicalPrinterTest": "pending",
+    "androidDeviceTesting": "pending"
+  }
+}
