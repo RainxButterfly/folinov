@@ -1,0 +1,64 @@
+{
+  "version": "0.4.1",
+  "builtAt": "2026-11-19T13:26:47.313Z",
+  "androidVersionCode": 16,
+  "artifacts": [
+    {
+      "platform": "windows",
+      "path": "release/FolinovConsole-Setup-0.4.1.exe",
+      "version": "0.4.1",
+      "size": 2679862,
+      "sha256": "1ca11ab23d7cb4768872cba963887aa0b7e925ab1a4ebb534fd4ac109cdfd265",
+      "tag": "v0.4.1",
+      "repositoryPath": "releases/FolinovConsole-Setup-0.4.1.exe",
+      "urls": [
+        "https://hk.gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.1/releases/FolinovConsole-Setup-0.4.1.exe",
+        "https://ghproxy.net/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.1/releases/FolinovConsole-Setup-0.4.1.exe",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.1/releases/FolinovConsole-Setup-0.4.1.exe",
+        "https://ghfast.top/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.1/releases/FolinovConsole-Setup-0.4.1.exe",
+        "https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.1/releases/FolinovConsole-Setup-0.4.1.exe"
+      ]
+    },
+    {
+      "platform": "android",
+      "path": "release/FolinovMobile-0.4.1.apk",
+      "version": "0.4.1",
+      "size": 1779391,
+      "sha256": "27afa36278291c75e038667b08748a3decc4ccbc20ab0f4f9058c46fd800fdf5",
+      "tag": "android-v0.4.1",
+      "repositoryPath": "releases/android/FolinovMobile-0.4.1.apk",
+      "urls": [
+        "https://hk.gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.1/releases/android/FolinovMobile-0.4.1.apk",
+        "https://ghproxy.net/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.1/releases/android/FolinovMobile-0.4.1.apk",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.1/releases/android/FolinovMobile-0.4.1.apk",
+        "https://ghfast.top/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.1/releases/android/FolinovMobile-0.4.1.apk",
+        "https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.1/releases/android/FolinovMobile-0.4.1.apk"
+      ]
+    }
+  ],
+  "notes": [
+    "公开文档和表格支持拥有者独立配置修改、删除、指定成员授权与留言区开关",
+    "新增项目文件夹、多级目录、目录重命名和批量归档，保留原有协作权限",
+    "普通文档增加字体字号、文字颜色、图片、查找替换、HTML 导出和打印/PDF，修复 Markdown 导出结构",
+    "智能表格增加统计概览、分组统计图、批量修改、组合筛选和日历日期字段选择",
+    "完善导图多工作表与游离分支导入、长标题换行、配色、适应画布与查找",
+    "文档、表格和导图增加版本历史预览、命名、导出和恢复，恢复前备份当前内容",
+    "新增保存冲突保护、本地失败草稿恢复、另存私有副本和备份文件导入"
+  ],
+  "validation": {
+    "typescriptProductionBuild": true,
+    "rustUnitTests": 11,
+    "rustDatabaseSmoke": "not run: database network denied by execution environment",
+    "androidRpcDatabaseAssertions": "not run: database network denied by execution environment",
+    "workspaceAssertions": 99,
+    "androidHistoryOfflineAssertions": 25,
+    "annotationAssertions": 7,
+    "avatarColorAssertions": 15,
+    "androidReleaseLint": true,
+    "androidSignatureVerified": true,
+    "apkWorkspaceVerified": true,
+    "desktopCustomProtocol": true,
+    "browserAutomation": "passed: history, restore, conflicts, drafts, copies, folder rename, batch archive, editor regression",
+    "androidDeviceTesting": "pending: no device installation test"
+  }
+}
