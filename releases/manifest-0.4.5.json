@@ -15,8 +15,53 @@
         "https://ghproxy.net/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.5/releases/FolinovConsole-Setup-0.4.5.exe",
         "https://gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.5/releases/FolinovConsole-Setup-0.4.5.exe",
         "https://ghfast.top/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.5/releases/FolinovConsole-Setup-0.4.5.exe",
-        "https://hk.gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.5/releases/FolinovConsole-Setup-0.4.5.exe",
-        "https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.5/releases/FolinovConsole-Setup-0.4.5.exe"
+        "https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.5/releases/FolinovConsole-Setup-0.4.5.exe",
+        "https://github.com/RainxButterfly/folinov/raw/refs/tags/v0.4.5/releases/FolinovConsole-Setup-0.4.5.exe",
+        "https://hk.gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.5/releases/FolinovConsole-Setup-0.4.5.exe"
+      ],
+      "verifiedSources": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.5/releases/FolinovConsole-Setup-0.4.5.exe",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.5/releases/FolinovConsole-Setup-0.4.5.exe",
+        "https://ghfast.top/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.5/releases/FolinovConsole-Setup-0.4.5.exe",
+        "https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.5/releases/FolinovConsole-Setup-0.4.5.exe",
+        "https://github.com/RainxButterfly/folinov/raw/refs/tags/v0.4.5/releases/FolinovConsole-Setup-0.4.5.exe"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://hk.gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.5/releases/FolinovConsole-Setup-0.4.5.exe",
+          "verified": false,
+          "detail": "IllegalStateException: HTTP 500"
+        },
+        {
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.5/releases/FolinovConsole-Setup-0.4.5.exe",
+          "verified": true,
+          "detail": "HTTP 200; size and SHA256 match"
+        },
+        {
+          "url": "https://gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.5/releases/FolinovConsole-Setup-0.4.5.exe",
+          "verified": true,
+          "detail": "HTTP 200; size and SHA256 match"
+        },
+        {
+          "url": "https://ghfast.top/https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.5/releases/FolinovConsole-Setup-0.4.5.exe",
+          "verified": true,
+          "detail": "HTTP 200; size and SHA256 match"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/RainxButterfly/folinov/v0.4.5/releases/FolinovConsole-Setup-0.4.5.exe",
+          "verified": true,
+          "detail": "HTTP 200; size and SHA256 match"
+        },
+        {
+          "url": "https://github.com/RainxButterfly/folinov/raw/refs/tags/v0.4.5/releases/FolinovConsole-Setup-0.4.5.exe",
+          "verified": true,
+          "detail": "HTTP 200; size and SHA256 match"
+        },
+        {
+          "url": "https://hk.gh-proxy.com/https://github.com/RainxButterfly/folinov/raw/refs/tags/v0.4.5/releases/FolinovConsole-Setup-0.4.5.exe",
+          "verified": false,
+          "detail": "IllegalStateException: HTTP 500"
+        }
       ]
     },
     {
@@ -31,8 +76,53 @@
         "https://ghproxy.net/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.5/releases/android/FolinovMobile-0.4.5.apk",
         "https://gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.5/releases/android/FolinovMobile-0.4.5.apk",
         "https://ghfast.top/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.5/releases/android/FolinovMobile-0.4.5.apk",
-        "https://hk.gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.5/releases/android/FolinovMobile-0.4.5.apk",
-        "https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.5/releases/android/FolinovMobile-0.4.5.apk"
+        "https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.5/releases/android/FolinovMobile-0.4.5.apk",
+        "https://github.com/RainxButterfly/folinov/raw/refs/tags/android-v0.4.5/releases/android/FolinovMobile-0.4.5.apk",
+        "https://hk.gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.5/releases/android/FolinovMobile-0.4.5.apk"
+      ],
+      "verifiedSources": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.5/releases/android/FolinovMobile-0.4.5.apk",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.5/releases/android/FolinovMobile-0.4.5.apk",
+        "https://ghfast.top/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.5/releases/android/FolinovMobile-0.4.5.apk",
+        "https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.5/releases/android/FolinovMobile-0.4.5.apk",
+        "https://github.com/RainxButterfly/folinov/raw/refs/tags/android-v0.4.5/releases/android/FolinovMobile-0.4.5.apk"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://hk.gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.5/releases/android/FolinovMobile-0.4.5.apk",
+          "verified": false,
+          "detail": "IllegalStateException: HTTP 500"
+        },
+        {
+          "url": "https://ghproxy.net/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.5/releases/android/FolinovMobile-0.4.5.apk",
+          "verified": true,
+          "detail": "HTTP 200; size and SHA256 match"
+        },
+        {
+          "url": "https://gh-proxy.com/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.5/releases/android/FolinovMobile-0.4.5.apk",
+          "verified": true,
+          "detail": "HTTP 200; size and SHA256 match"
+        },
+        {
+          "url": "https://ghfast.top/https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.5/releases/android/FolinovMobile-0.4.5.apk",
+          "verified": true,
+          "detail": "HTTP 200; size and SHA256 match"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/RainxButterfly/folinov/android-v0.4.5/releases/android/FolinovMobile-0.4.5.apk",
+          "verified": true,
+          "detail": "HTTP 200; size and SHA256 match"
+        },
+        {
+          "url": "https://github.com/RainxButterfly/folinov/raw/refs/tags/android-v0.4.5/releases/android/FolinovMobile-0.4.5.apk",
+          "verified": true,
+          "detail": "HTTP 200; size and SHA256 match"
+        },
+        {
+          "url": "https://hk.gh-proxy.com/https://github.com/RainxButterfly/folinov/raw/refs/tags/android-v0.4.5/releases/android/FolinovMobile-0.4.5.apk",
+          "verified": false,
+          "detail": "IllegalStateException: HTTP 500"
+        }
       ]
     }
   ],
